@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243582806767",
+    "project_id": "hacklogin-b3ada",
+    "storage_bucket": "hacklogin-b3ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243582806767:android:6da669b74d4aea0989491a",
+        "android_client_info": {
+          "package_name": "com.example.firebaseemail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243582806767-j7qbaelinklh301q5bvrg1g0t22431o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseemail",
+            "certificate_hash": "841ca978cec63a858a405e80eb2cbaba6548bd11"
+          }
+        },
+        {
+          "client_id": "243582806767-ksmie97adqs1mes6uu514mv7tji4t0gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqZLJOYzWE5yqUSWfQ2jI-AB7EhF3EmBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243582806767-ksmie97adqs1mes6uu514mv7tji4t0gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

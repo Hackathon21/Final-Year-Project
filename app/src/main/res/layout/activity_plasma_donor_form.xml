@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFD73B"
+        android:text="Registeration for bein a plasma donor"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textFontWeight="9"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/formName"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:hint="ADDRESS"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/bgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:hint="Blood Group"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Submit"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
+
