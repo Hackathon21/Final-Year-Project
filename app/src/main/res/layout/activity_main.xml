@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/plasma_donor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,22 +18,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <TextView
-        android:id="@+id/plasma_donorsearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LOOK FOR A PLASMA DONER"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_margin="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/plasma_donorsearch"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="LOOK FOR A PLASMA DONOR"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
 
 
@@ -81,7 +84,40 @@
 
 
     </LinearLayout>
+    <Button
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#7952D3"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/plasma_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I WANT TO BE A PLASMA DONOR"
+        />
+    <Button
+        android:backgroundTint="@color/cyan"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="LOOK FOR A PLASMA DONOR"
+        android:id="@+id/plasma_donorsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
+
+
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textFontWeight="7"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Latest Covid News"
+        android:layout_marginBottom="5dp"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:paddingTop="10dp"

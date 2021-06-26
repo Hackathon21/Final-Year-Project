@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#E4E1ED"
     android:layout_height="match_parent"
     tools:context=".Tracker.covidmain_activity">
 
@@ -204,7 +205,7 @@
         android:layout_height="487dp"
         android:layout_below="@+id/Container"
         android:layout_marginTop="14dp"
-
+        android:background="@color/white"
         android:layout_marginBottom="16dp">
 
 
@@ -214,13 +215,11 @@
     <Button
         android:id="@+id/btnhome"
         android:layout_width="wrap_content"
-
+        android:backgroundTint="#DFDAF1"
         android:layout_height="wrap_content"
-
-        android:backgroundTint="@color/semiTransparentColor"
         android:layout_alignBottom="@id/list"
         android:text="HOME"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
 
         />
 

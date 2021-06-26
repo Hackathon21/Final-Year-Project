@@ -1,12 +1,17 @@
 package com.example.firebaseemail
 
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 
-class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
+
+class MyAdapter(private val context: Context, private val userList : ArrayList<User>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -25,6 +30,33 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         holder.phone.text = currentitem.phone
         holder.zipcode.text = currentitem.zipcode
         holder.bgroup.text = currentitem.bgroup
+
+        val number=holder.phone.text
+
+        holder.phone.setOnClickListener {
+
+            val number=holder.phone.text.toString()
+            // The number on which you want to send SMS
+
+
+            context.startActivity(Intent(Intent.ACTION_VIEW, Uri.fromParts("sms", number, null)))
+
+
+
+//
+//            val sendIntent: Intent = Intent().apply {
+//                action = Intent.ACTION_SEND
+//                putExtra(Intent.EXTRA_TEXT, "This is my text to send.")
+//                type = "text/plain"
+//            }
+//
+//            val shareIntent = Intent.createChooser(sendIntent, null)
+//            context.startActivity(shareIntent)
+
+        }
+//        val shareIntent = Intent.createChooser(sendIntent, null)
+//        startActivity(shareIntent)
+
 
     }
 

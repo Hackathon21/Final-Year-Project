@@ -38,7 +38,9 @@ class UserList : AppCompatActivity() {
                         Log.d("hi",user.toString())
                         userArrayList.add(user!!)
                     }
-                    userRecyclerview.adapter = MyAdapter(userArrayList)
+                    userRecyclerview.adapter = MyAdapter(applicationContext,userArrayList)
+
+                    ///.....................................
                 }
             }
             override fun onCancelled(error: DatabaseError) {
