@@ -3,9 +3,9 @@ package com.example.firebaseemail
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.firebaseemail.Dataclass.User
 import com.google.firebase.database.*
 
 class UserList : AppCompatActivity() {
