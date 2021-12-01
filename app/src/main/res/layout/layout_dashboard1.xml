@@ -114,7 +114,8 @@
                 android:id="@+id/profileB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginLeft="20dp"
                 android:background="?attr/selectableItemBackground"
                 android:padding="8dp"
                 android:src="@drawable/profile"
@@ -139,7 +140,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/hospit"
+            android:id="@+id/contributeCard"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"
@@ -186,7 +187,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/vaccin"
+            android:id="@+id/practiceCard"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"
@@ -246,7 +247,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/plasma_donor"
+            android:id="@+id/learnCard"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"
@@ -293,7 +294,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/plasma_donorsearch"
+            android:id="@+id/interestsCard"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"
